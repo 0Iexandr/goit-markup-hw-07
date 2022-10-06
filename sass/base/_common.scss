@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background: var(--white-color);
+    color: var(--main-text-color);
+}
+
+.section {
+    padding: 94px 0 94px 0;
+}
+
+.sec-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}

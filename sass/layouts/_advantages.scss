@@ -1,0 +1,36 @@
+.advantages__title {
+    display: none;
+}
+
+.advantages__list {
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+}
+
+.advantages__item {
+    max-width: 270px;
+}
+
+.thumb-container {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background: var(--team-section-bg-color);
+}
+
+.advantages__subtitle {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantages__desc {
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--additional-text-color);
+}

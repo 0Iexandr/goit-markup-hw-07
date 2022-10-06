@@ -1,0 +1,31 @@
+.regulars__list {
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+}
+
+.regulars__item {
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+}
+
+.regulars__link {
+    fill: var(--team-card-icon-color);
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition-property: border-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, :focus {
+        fill: var(--additional-bg-text-color);
+        border-color: var(--additional-bg-text-color);
+    }
+}

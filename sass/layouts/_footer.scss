@@ -1,0 +1,15 @@
+.footer {
+    background: var(--additional-bg-color);
+    padding: 60px 0 60px 0;
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+    column-gap: 70px;
+}
+
+.footer__logo {
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
